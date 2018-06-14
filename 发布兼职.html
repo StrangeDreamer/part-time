@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心（基本信息）</title>
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <link href="css/xiangqin.css" rel="stylesheet" type="text/css">
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="header">
+    <nav class="link">
+        <ul class="city_wrap left">
+            <li>
+                <span>湖北</span>
+                <a >[切换城市]</a>
+            </li>
+
+            <li>
+                <span>湖北工业大学</span>
+                <a href="大学切换页面.html">[切换大学]</a>
+            </li>
+        </ul>
+
+        <ul class="channel right">
+            <li><a href="求职者和默认首页.html">首页</a></li>
+
+
+            |
+
+            <li>用户1</li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <header>
+        <div class="logo_box">
+            <ul>
+                <li><a href="求职者和默认首页.html" class="left" ><img src="img/logo.jpg"></a></li>
+                <li>
+                    <div id="search">
+                        个人中心
+                    </div>
+
+            </ul>
+        </div>
+    </header>
+</div>
+<p class="pad"></p>
+<div id="content">
+    <h2>当前位置<< aaa</h2>
+    <div class="header">
+        <form method="post" name="add" action="">
+            <table cellspacing="0" class="content" >
+                <tr><th><strong>编写招聘详情</strong></th></tr>
+                <tr><td>招聘标题:<input type="text" name="title" class="text"/><span class="red">[必填]</span>(*标题在2-50字符之间)</td></tr>
+                <tr><td>招聘类型:<select  name="zhp_style"><option value="" style="padding:0;">请选择一个招聘类型</option></select><span class="red">[必填]</span></td></tr>
+
+                <tr><td>所需人数:<input type="text" name="num" class="text"/></td></tr>
+                <tr><td>工资待遇:<input type="text" name="salary" class="text"/></td></tr>
+
+                <tr><td>工作时间:<input type="text" name="work_time" class="text"/></td></tr>
+
+                <tr><td><span class="middle">工作内容:</span><textarea name="info"></textarea><span class="middle">(不得超过200位)</span></td></tr>
+                <tr><td>简历邮箱:<input type="text" value="" name="email" class="text"/></td></tr>
+                <tr><td>联&nbsp;系&nbsp;人:<input type="text" name="people" readonly="readonly" class="text"/></td></tr>
+                <tr><td>咨询电话:<input type="text" value="" name="telephone" class="text"/></td></tr>
+                <tr><td>报名方式:<input type="checkbox" name="style[]"  class="style"/>提供短信报名
+                    <input type="checkbox" ame="style[]" value="0" class="style"/>提供电话报名
+                </td></tr>
+                <tr><td>工作地点:<select><option></option></select><select><option></option></select><select><option></option></select></td></tr>
+
+
+
+
+
+
+                <tr><td><input type="submit" name="send" value="发布招聘"  class="submit level" /><input type="reset" value="重新填写" class="submit level"/></td></tr>
+                <tr><td></td></tr>
+            </table>
+        </form>
+        </div>
+</div>
+<footer class="footer">
+    <div class="bottom">
+        <h2>联系方式</h2>
+        <hr>
+        <ul>
+            <li>电话：99999999 （周一至周五 9：00-21：00）</li>
+            <li>邮箱：daxueshengjianzhiwang@sdhuw.cn</li>
+            <li class="last">湖工有才人有限公司</li>
+        </ul>
+
+    </div>
+</footer>
+</body>
+</html>

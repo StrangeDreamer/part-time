@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+h2{
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size:16px;
+}
+#header{
+    width: 100%;
+    min-width: 1100px;
+    height: 30px;
+    background: #FFCC33;
+    margin-top:10px;
+    font-size: 14px;
+}
+#header .link{
+    width: 1100px;
+    height: 40px;
+    line-height: 30px;
+    margin:0 auto;
+}
+#header .city_wrap{
+    float: left;
+}
+#header .city_wrap span{
+    color: red;
+    margin-left: 40px;
+}
+
+#header .channel{
+    float:right;
+}
+#header .channel a{
+    margin-right: 20px;
+}
+#header li{
+    display: inline-block;
+    text-align: center;
+}
+#header .link a{
+    color: black;
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.container .logo_box{
+    height: 90px;
+    position: relative;
+}
+.container .logo_box li {
+    display: block;
+    padding: 15px;
+
+}
+.container .logo_box #search{
+    position: absolute;
+    font-family:'华文行楷';
+    color:#FFCC66;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    font-weight: 300;
+    margin: -20px 0 0 -250px;
+}
+.container .logo_box .search{
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.container .logo_box .button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.container .logo_box .issue{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #FD711C;
+
+}
+.container .banner_box{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #FF9933;
+}
+.pad{
+    width:1100px;
+    height:2px;
+    margin: 0 auto;
+    background-color: #FF9933;
+}
+
+#content{
+    width: 1100px;
+    margin: 10px auto;
+
+}
+#content form{
+    margin:10px 0 10px 0;
+    padding:10px 0px 5px 10px;
+    background-color: #FFCC66;
+
+}
+#content form p{
+    margin: 26px 0;
+}
+#content form p span.tag{
+    font-size:20px;
+    border:1px solid #ccc;
+    padding:8px 5px 8px 8px;
+    margin-right: 10px;
+}
+#content form p input.check{
+    margin-right: 5px;
+    height:20px;
+    width: 20px;
+
+}
+#content form p input.text{
+
+    height:40px;
+    width: 650px;
+}
+#content form p.bu{
+    float:right;
+    margin:43px 150px 0 0px;
+
+
+}
+#content form p input.button{
+    font-size:20px;
+    padding:15px 10px 15px 10px;
+    margin-right: 10px;
+}
+#content form p textarea{
+    float:left;
+    height:100px;
+    width: 650px;
+}
+
+#content form p em{
+    font-size:16px;
+    border:1px solid #ccc;
+    background-color: white;
+    padding:8px 10px 8px 10px;
+    margin-right: 10px;
+
+}
+#content form p span.area{
+    float:left;
+    padding:38px 8px 38px 8px;
+}
+#content form p.sel{
+    height:1px;
+    width:1100px;
+    margin:0 auto;
+    clear: both;
+}
+
+.footer
+{
+    display: block;
+    width:100%;
+    margin: 160px auto;
+    height: 190px;
+    background-color: #eee;
+}
+.footer h2
+{
+
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+
+
+}
+.bottom
+{
+    width: 1100px;
+    height: 190px;
+    margin:0 auto;
+}
+.last
+{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.content1
+{
+    padding:20px;
+    border:1px solid #E8E4E4;
+    font-size:20px;
+    color:black;
+    background-color:#E8E4E4;
+    margin:0px 0px 10px 0px;
+}
+.content2
+{
+    padding:10px;
+    border-style:solid;
+    border-color:#E8E4E4;
+    background-color:#E8E4E4;
+    margin:0px 10px 10px 440px;
+}
+.content3
+{
+    background-color:#E8E4E4;
+    font-size:60px;
+}
+.img
+{
+    margin:20px -20px 0px 10px;
+}
+
+{
+    border:1px solid #E4E2E2;
+    width:400px;
+    height:1000px;
+}
+
+.back1{
+    width:800px;
+    height:40px;
+    backgrund-color:red;
+}
+.left1{
+    float:left;
+    width:100px;
+    height:40px;
+    board:1px solid black;
+}
+.mid1{
+    float:left;
+    width:100px;
+    height:40px;
+    board:1px solid black;
+}
+.right1{
+    float:left;
+    width:100px;
+    height:40px;
+    board:1px solid black;
+}

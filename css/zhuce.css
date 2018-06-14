@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+#header{
+    width: 100%;
+    min-width: 1100px;
+    height: 30px;
+    background: #FFCC33;
+    font-size: 14px;
+}
+#header .link{
+    width: 1100px;
+    height: 40px;
+    line-height: 30px;
+    margin:0 auto;
+}
+#header .city_wrap{
+    float: left;
+}
+#header .city_wrap span{
+    color: red;
+    margin-left: 40px;
+}
+
+#header .channel{
+    float:right;
+}
+#header .channel a{
+    margin-right: 20px;
+}
+#header li{
+    display: inline-block;
+    text-align: center;
+}
+#header .link a{
+    color: black;
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.container .logo_box{
+    height: 90px;
+    position: relative;
+}
+.container .logo_box li {
+    display: block;
+    padding: 15px;
+
+}
+.container .logo_box #search{
+    position: absolute;
+	font-family:'华文行楷';
+    color:#FFCC66;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: 300;
+    margin: -20px 0 0 -250px;
+	list-style-type:none;
+}
+
+.container .logo_box .search{
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+}
+.container .logo_box .button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.container .logo_box .issue{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #FD711C;
+
+}
+.container .banner_box{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #FF9933;
+}
+
+#content{
+    width: 1100px;
+    margin: 0 auto;
+}
+#content .header ul li{
+    display:inline-block;
+    width:32.6%;
+    border:1px solid #ccc;
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+
+}
+
+#content  .left{
+    float:left;
+    margin-top:10px;
+}
+
+#content  .left ul li{
+    height:90px;
+    line-height: 90px;
+    width:250px;
+    font-size:30px;
+    font-style: inherit;
+    list-style-type: none;
+    text-align: center;
+
+
+
+}
+#content .right{
+    float:right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:840px;
+    float:right;
+
+}
+
+#content  .right .nav{
+    margin:10px 0 0 10px;
+    font-size:30px;
+}
+#content  .right .edit{
+    float:right;
+    margin-right:50px;
+    clear:both;
+
+
+}
+#content  .right .edit input{
+    width:80px;
+    height:25px;
+    line-height:15px ;
+}
+#content .u{
+    width:800px;
+    margin:7px auto;
+    height:2px;
+    background-color:#E4D978;
+}
+#content p{
+    font-size:25px;
+    margin:20px 0 0 40px;
+    height:35px;
+    line-height:20px
+
+}
+#content p input{
+    margin-top:10px;
+    width:300px;
+    height:30px;
+    line-height:30px;
+}
+
+
+.footer
+{
+    display: block;
+    width:100%;
+    margin: 10px auto;
+    height: 190px;
+    clear:both;
+    background-color: #eee;
+}
+.footer h2
+{
+
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+
+
+}
+.bottom
+{
+    width: 1100px;
+    height: 190px;
+    margin:0 auto;
+}
+.last
+{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.content1
+{
+    padding:20px;
+    border:1px solid #E8E4E4;
+    font-size:20px;
+    color:black;
+    background-color:#E8E4E4;
+    margin:0px 0px 10px 0px;
+}
+.content2
+{
+    padding:10px;
+    border-style:solid;
+    border-color:#E8E4E4;
+    background-color:#E8E4E4;
+    margin:0px 10px 10px 440px;
+}
+.content3
+{
+    background-color:#E8E4E4;
+    font-size:60px;
+}
+.img
+{
+    margin:20px -20px 0px 10px;
+}
+
+{
+    border:1px solid #E4E2E2;
+    width:400px;
+    height:1000px;
+}
+
+.back1{
+    width:800px;
+    height:40px;
+    backgrund-color:red;
+}
+.left1{
+    float:left;
+    width:100px;
+    height:40px;
+    board:1px solid black;
+}
+.mid1{
+    float:left;
+    width:100px;
+    height:40px;
+    board:1px solid black;
+}
+.right1{
+    float:left;
+    width:100px;
+    height:40px;
+    board:1px solid black;
+}
+
+.btn-login2{
+    padding:15px 20px 20px 20px;
+	background-image: url("file:///G|/大学生兼职网/大学生兼职网/img/注册.png");
+	background-repeat:no-repeat;
+	margin-top:20px;
+	margin-left:20px;
+}
+.tb-icon2{
+    font-family: "黑体","Times New Roman",Georgia,Serif;
+    font-size: 24px;
+	text-decoration: none;
+    font-style: normal;
+	color:white;
+	font-weight:bold;
+	margin-top:150px;
+    display: inline;
+	padding-right:5px;
+	margin-left:0px;
+	}
+.font{
+	font-size:16px;
+}
